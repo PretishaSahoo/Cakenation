@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+    padding:0;
+}
+
+#navbar{
+    background-color:#333333;
+    padding:23px;
+}
+
+#navbar ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+
+#navbar li{
+    list-style:none;
+}
+
+#navbar li a{
+    text-decoration:none;
+    padding:23px;
+    color:white;
+    font-family: cursive;
+    font-weight:lighter;
+}
+
+#navbar li a:hover{
+    text-decoration:none;
+    padding:23px;
+    color:black;
+    font-family: cursive;
+    font-weight:lighter;
+}
+
+#introSection{
+    color:black;
+    font-size:45px;
+    height:500px;
+    background-image: url("/static/Bakery.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:70%;
+}
+
+#moreSection{
+    height:300px;
+    
+}
+
+#footer{
+    height:100px;
+    background-color: #333333;
+    color:white;
+    bottom:0;
+    padding:23px;
+}
+
+.typed-text{
+    padding-top:250px;
+    padding-bottom:100px;
+    padding-left:40px;
+    padding-right:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+
+.floating-text{
+    display:block;
+    margin:23px auto;
+    padding:50px;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0;
+    transform: translateY(-50px);
+    font-weight:100;
+    transition: opacity 1s ease, transform 1s ease, rotate 2s ease, scale 2s ease;
+  
+}
+
+.abt{
+    padding-top:34px;
+    padding-left:34px;
+    font-size:45px;
+}
+
+.aboutHeading{
+    padding-top:34px;
+    padding-left:34px;
+}
+
+div{
+    padding: 20px;
+}
+
+.abt-p{
+    font-size:20px;
+    padding:25px;
+}
+
+#aboutpage{
+    height:750px;
+    background-image:url(https://img.freepik.com/free-photo/copy-space-ingredients-cookies_23-2148837161.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:70%;
+}
+
+#abtcont{
+    width:80%;
+}
+
+#ordersbody{
+    background-image:url(https://c0.wallpaperflare.com/preview/393/804/899/dessert-chocolate-mousse-food.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity:70%;
+    height:1000px;
+}
+
+.ordercontact{
+    padding:25px;
+    color: white;
+    font-size: 50px;
+}
+
+.cakes{
+    width:100%;
+    height:250px;
+}
+
+.box{
+    border:2px solid rgb(191, 180, 180);
+}
+
+.cakerow{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-gap:8px;
+}
+
+.bigbox{
+    width:80%;
+}
+
+.typed-text2{
+    color:#333333;
+    padding:12px;
+}
+.myForm{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.form{
+
+    border:2px solid rgb(228, 225, 225);
+    max-width:80%;
+    margin-top:3%;
+    margin-bottom:34%;
+    margin-left:20%;
+    margin-right:20%;
+    border-radius:26px;
+    background-color: white;
+}
+
+.myInput{
+    padding:15px;
+    margin:15px;
+    width:80%;
+    border:1px solid rgb(177, 167, 167);
+    border-radius:5px;
+    outline:none;
+}
+
+.formheading{
+    font-family:cursive;
+    font-size:32px;
+    color:brown;
+}
+
+.classesbox{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    background-image:url(https://cdn-manager.net/media/images/chocolate-icing-on-chocolate-cupcakes-landscape-large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+    height:1000px;
+}
+
+.btn{
+    padding:12px 22px;
+    background-color:rgb(157, 97, 97);
+    color:white;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}

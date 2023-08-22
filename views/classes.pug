@@ -1,0 +1,56 @@
+doctype html
+html
+    head 
+        title Cakenation-ClassesInfo
+        link(rel='icon', href='', type='image/x-icon')
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/order") Order Catalogue]
+                li #[a(href="/classes") Cooking Classes Info]
+                li #[a(href="/contact") Contact Us]
+        div.classesbox
+            div
+                div 
+                    p Welcome to CakeNation's Baking Classes! We're excited to share our passion for baking with you. Our classes offer a hands-on experience that will inspire and empower you to create delightful baked treats.
+                div
+                    p Our baking classes are held on various days to accommodate your schedule. Whether you're an early riser or prefer evening sessions, we have options for everyone.
+                div
+                    p Morning Sessions: 9:00 AM - 12:00 PM
+                    p Afternoon Sessions: 2:00 PM - 5:00 PM
+                    p Evening Sessions: 6:00 PM - 9:00 PM
+                div
+                    p Join us at our cozy baking studio in the heart of Kolkata. The address is:
+                div
+                    p CakeNation Baking Studio 
+                    p 123 Sweet Street, Baker's Haven Kolkata
+                    p West Bengal Pin: 700001
+
+
+
+            div.form
+
+                form(action="/classes",method="post",class="myForm")
+                    div 
+                        p.formheading   New Student Registration
+                    input(type="text",class="myInput",name="name", placeholder="Enter your Name")
+                    input(type="text",class="myInput",name="age", placeholder="Enter your Age")
+                    input(type="phone",class="myInput",name="phoneno", placeholder="Enter your Phone Number")
+                    input(type="email",class="myInput",name="email", placeholder="Enter your Email ID")
+                    input(type="address" , name="address",class="myInput", placeholder="Enter your Address") 
+                    button(class="btn")
+                        |submit
+                    
+
+
+
+
+    footer#footer
+            |@copyright | cakenation@gmail.com |All Rights Reserved
+            
+    script 
+        include ../static/index.js

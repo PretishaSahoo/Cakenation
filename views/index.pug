@@ -1,0 +1,26 @@
+doctype html
+html
+    head 
+        title Cakenation!
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                li #[a(href="/") Home]
+                li #[a(href="/about") About]
+                li #[a(href="/order") Order Catalogue]
+                li #[a(href="/classes") Cooking Classes Info]
+                li #[a(href="/contact") Contact Us]
+        section#introSection.typed-text
+            h1 "Welcome to CakeNation!!!"
+
+        section#moreSection
+            p.floating-text "Welcome to CakeNation, where the art of baking transforms into delightful creations! We specialize in crafting bespoke birthday cakes that are as unique as the celebrations they honor. Join us for a sweet journey as we also share our baking expertise through fun and interactive classes, inspiring a new generation of talented bakers.Indulge in the world of flavors and designs at CakeNation, where every cake tells a story and every bite is a moment of joy. From whimsical to elegant, our birthday cakes are tailor-made to make your special day truly unforgettable. And for those aspiring to master the art of baking, our expert-led classes provide hands-on experience, turning your passion into a skill that rises just like our perfectly baked confections. Join us at CakeNation, where every slice is a taste of happiness and every lesson is a step towards culinary excellence.🧁🧁🎂🍰"
+
+        footer#footer
+            |@copyright | cakenation@gmail.com |All Rights Reserved
+            
+        script 
+            include ../static/index.js
+            include ../static/script.js
